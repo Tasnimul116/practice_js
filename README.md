@@ -1,1 +1,1 @@
-# practice_js
+This repo only for practicing vanilla javascript
