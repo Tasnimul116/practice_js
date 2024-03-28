@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(134, 224, 236);
+}
+
+body, .quote-intput{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.container{
+    background-color: rgb(214, 211, 211);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 700px;
+    height: auto;
+
+}
+
+.timer{
+    position: absolute;
+    top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.quote-diplay{
+    margin-bottom: 1rem;
+    margin-right: calc(1rem + 2px);
+    margin-left: calc(1rem + 2px);
+}
+
+.quote-input{
+    background-color: transparent;
+    border: 3px solid rgb(68, 68, 68) ;
+    outline: none ;
+    width: 100%;
+    height: 14rem;
+    margin: auto;
+    resize: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+
+}
+
+.quote-input:focus{
+    border-color: black;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
