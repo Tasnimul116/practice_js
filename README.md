@@ -1,1 +1,1 @@
-This repo only for practicing vanilla javascript
+This repo is only for practicing vanilla javascript
